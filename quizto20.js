@@ -126,5 +126,5 @@ for (let i = 0; i < array.length; i++) {
 }
 
 //문20
-const oddNum = Array(5).fill().map((v, i) => i * 2 + 3);
+const oddNum = Array(5).fill(1).map((v, i) => i * 2 + v);
 console.log(oddNum);
